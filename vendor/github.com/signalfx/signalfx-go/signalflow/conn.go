@@ -3,7 +3,7 @@ package signalflow
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"path"
 	"sync"

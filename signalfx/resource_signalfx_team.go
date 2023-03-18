@@ -3,7 +3,7 @@ package signalfx
 import (
 	"context"
 	"encoding/json"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
